@@ -92,5 +92,5 @@ Configure your AI provider, model, and endpoint. Your API key is encrypted at re
 
 <div align="center">
   <img src="assets/logo.svg" width="40" alt="Lava" />
-  <p><strong>Built with ❤ and lava</strong></p>
+  <p><strong>Built with ❤ by lava team</strong></p>
 </div>
