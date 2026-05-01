@@ -1,0 +1,36 @@
+<svg viewBox="0 0 480 280" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a1714"/>
+      <stop offset="100%" stop-color="#0f0e0d"/>
+    </linearGradient>
+  </defs>
+  <rect width="480" height="280" fill="url(#bg4)" rx="12"/>
+  <rect x="16" y="16" width="448" height="248" fill="#211d1a" rx="8"/>
+  <!-- Titlebar -->
+  <rect x="16" y="16" width="448" height="28" fill="#141210" rx="8 8 0 0"/>
+  <text x="36" y="35" fill="#f0e5d8" font-family="Inter,system-ui,sans-serif" font-size="13" font-weight="600">Settings</text>
+  <!-- Settings form -->
+  <!-- API Key field -->
+  <text x="182" y="72" fill="#81756d" font-family="Inter,system-ui,sans-serif" font-size="9">API Key</text>
+  <rect x="182" y="80" width="260" height="30" rx="5" fill="#171412" stroke="#3a312b" stroke-width="1"/>
+  <text x="194" y="100" fill="#81756d" font-family="monospace" font-size="10">sk-••••••••••••••••</text>
+  <!-- Model ID field -->
+  <text x="182" y="132" fill="#81756d" font-family="Inter,system-ui,sans-serif" font-size="9">Model</text>
+  <rect x="182" y="140" width="260" height="30" rx="5" fill="#171412" stroke="#3a312b" stroke-width="1"/>
+  <text x="194" y="160" fill="#f0e5d8" font-family="Inter,system-ui,sans-serif" font-size="10">gpt-4o</text>
+  <!-- Endpoint field -->
+  <text x="182" y="192" fill="#81756d" font-family="Inter,system-ui,sans-serif" font-size="9">Endpoint</text>
+  <rect x="182" y="200" width="260" height="30" rx="5" fill="#171412" stroke="#3a312b" stroke-width="1"/>
+  <text x="194" y="220" fill="#f0e5d8" font-family="Inter,system-ui,sans-serif" font-size="10">https://api.openai.com/v1</text>
+  <!-- Save button -->
+  <rect x="370" y="240" width="72" height="28" rx="5" fill="#d45a22"/>
+  <text x="406" y="258" fill="white" font-family="Inter,system-ui,sans-serif" font-size="10" font-weight="600" text-anchor="middle">Save</text>
+  <!-- Lock icon -->
+  <rect x="50" y="140" width="60" height="50" rx="8" fill="#231d19" stroke="#3a312b" stroke-width="1"/>
+  <rect x="68" y="130" width="24" height="20" rx="10" fill="none" stroke="#ff6b2b" stroke-width="2"/>
+  <rect x="58" y="148" width="44" height="30" rx="4" fill="#d45a22" opacity="0.3"/>
+  <circle cx="80" cy="162" r="4" fill="#ff6b2b"/>
+  <rect x="78" y="162" width="4" height="8" rx="1" fill="#ff6b2b"/>
+  <text x="80" y="200" fill="#81756d" font-family="Inter,system-ui,sans-serif" font-size="7" text-anchor="middle">Encrypted</text>
+</svg>
